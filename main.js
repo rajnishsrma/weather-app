@@ -1,3 +1,4 @@
+/** Weather APP Js file  */
 
 const searchIn =  document.querySelector(".inp");
 const reportElm =  document.querySelector(".report");
@@ -48,6 +49,7 @@ const getWeather = (city) => {
                 default : {
                     imgElm.src = sunny_weather_icon ;
                 }
+
 
 
             }
